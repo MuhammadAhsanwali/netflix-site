@@ -1,0 +1,398 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: black;
+    overflow-x: hidden;
+    
+}
+.logo{
+    width: 150px;
+    
+}
+.btn{
+    background-color: rgb(229,9,20);
+    border: 1px solid red;
+    width: 70px;
+    height: 25px;
+    border-radius: 5px;
+    color: white;
+    height: 40px;
+    font-weight: bolder;
+}
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    width: 76vw;
+    margin: auto;
+    height: 100px;
+    position: relative;
+    z-index: 10;
+}
+.main{
+    background-image: url(./Assets/bg.jpg);
+    height: 95vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    
+    
+    
+}
+.main .box{
+    height: 95vh;
+    opacity: 0.60;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.hed{
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    flex-direction: column;
+    line-height: 58px;
+    padding: 35px 0;
+}
+.hed> :nth-child(1) {
+
+font-size: 50px;
+}
+.hed> :nth-child(2){
+    font-size: 25px;
+
+}
+.hed> :nth-child(3){
+    font-size: 25px;
+
+}
+.hedbtn input{
+    width: 370px;
+    height: 40px;
+    padding: 8px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+    font-size: medium;
+    border-radius: 5px;
+    position: relative;
+}
+.hedbtn .btn{
+    width: 195px;
+    height: 55px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 4;
+    position: relative;
+    
+    
+}
+.hedbtn{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+}
+ .sepration {
+    height: 7px;
+    background-color: rgb(46, 44, 44);
+     position: relative;
+    z-index: 20 
+    
+} 
+.first, .soo{
+    
+    display: flex;
+    align-items: center;
+    color: white;
+    max-width: 80vw;
+    margin: auto;
+    justify-content: center;
+    height: 500px;
+    position: relative;
+
+    
+    
+}
+.secim{
+    position: relative;
+}
+ .secim img{
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+.secim video{
+    position: absolute;
+    top: 85px;
+    right: 75px;
+    width: 410px;
+    
+}
+section.first>div :nth-child(1) {
+    font-size: 48px;
+    font-weight: 800;
+    padding-bottom: 30px;
+    
+}
+
+
+section.first>div :nth-child(2) {
+    font-size: 24px;
+    font-weight: bold;
+
+}
+.ibx{
+    width: 490px;
+    position: relative;
+}
+#clh{
+    font-size: 45px;
+}
+.faq h1{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+}
+.faq{
+    color: white;
+    padding: 34px;
+}
+.faqbox{
+    border: 1px solid #2d2d2d;;
+    width: 75vw;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+    background-color: #2d2d2d;
+    margin: 10px auto;
+    justify-content: space-between;
+    padding: 13px;
+    position: relative;
+}
+.faqbox:hover {
+    background-color: #414141;
+    color: white;
+}
+footer ,a{ 
+    color: rgba(255,255,255,0.7);
+}
+.footer{
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;  
+    font-size: 14px;
+} 
+footer{
+    width: 90vw;
+    margin-left: 100px;
+    padding: 40px;
+    position: relative;
+    
+}
+footer .foot{
+    padding: 24px 0;
+}
+select{
+    border: 1px solid white;
+    width: 115px;
+    color: white;
+    background-color: black;
+    border-radius: 4px;
+    height: 35px;
+    padding: 5px;
+    margin-top: 20px;
+}
+.last p{
+    color: rgba(255,255,255,0.7);
+    font-size: 14px;
+    margin: 24px 0 0;
+}
+
+@media screen and (max-width: 1300px){
+   .main{
+    position: relative;
+    width: 100vw;
+    overflow-y: hidden;
+   }
+   *{
+    overflow-x: hidden;
+   }
+   .hedbtn{
+    height: 190px;
+     flex-direction: column;
+     align-items: center;
+
+   }
+   .hedbtn input{
+    width: 330px;
+   }
+   .hed> :nth-child(1) {
+
+    font-size: 40px;
+    text-align: center;
+    overflow-y: hidden;
+    height: 180px;
+    }
+    .hed> :nth-child(2) {
+
+
+        text-align: center;
+        font-size: 18px;
+        height: 120px;
+        overflow-y: hidden;
+        }
+        .hed> :nth-child(3){
+            font-size: 18px;
+            width: 279.2px;
+            text-align: center;
+            line-height: 35px;
+            height: 200px;
+        }
+      .sod{
+        display: flex;
+        flex-direction: column;
+      }
+      
+      #kes{
+        font-size: 32px;
+        text-align: center;
+        
+      }
+    #kess{
+        font-size: 18px;
+        text-align: center;
+        height: 100px;
+        
+    }
+    .scc{
+        overflow-y: hidden;
+        margin-top: 20px;
+    }
+    .secim img {
+        height: 245px;
+        width: 320px;
+        
+    }
+    .secim video{
+        position: absolute;
+        top: 0;
+        left: 40px;
+        width: 250px;
+        height: 244px;
+       
+        
+    }
+    .first{
+        display: flex;
+        flex-direction: column;
+        overflow-y: hidden;
+    }  
+    .soo{
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }  
+    .mobh{
+        overflow-y: hidden;
+        height: 300px;
+    }
+    #mmo{
+        font-size: 32px;
+        text-align: center;
+    }
+    #moo{
+        font-size: 18px;
+        text-align: center;
+    }
+   .sss{
+    overflow-y: hidden;
+    margin-bottom: 50px;
+   }
+   #shh{
+    font-size: 32px;
+    text-align: center;
+    overflow-y: hidden;
+   }
+   #shhh{
+    font-size: 18px;
+    text-align: center;
+    overflow-y: hidden;
+   }
+   .jjj{
+    display: flex;
+    flex-direction: column-reverse;
+    
+   }
+   .ooo{
+    overflow: hidden;
+   }
+   #mnm{
+    width: 327px;
+    height: 275px;
+    overflow-y: hidden;
+   }
+.lll{
+    overflow-y: hidden;
+}
+#kesa{
+    width: 280px;
+}
+footer{
+    margin: auto;
+    width: 690px;
+    
+}
+
+.footer{
+    gap: 10px;
+
+}
+.footer-item{
+    width: 150px;
+    
+}
+   
+}
+@media screen and (max-width: 670px) {
+
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    } 
+}
+
+
+@media screen and (max-width: 520px) {
+
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+        width: 300px;
+    } 
+    .footer-item{
+        width: 190px;
+        
+        
+    }
+
+}
+
+
+
